@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('fondod.jpg'); /* Cambia 'fondo.jpg' por la ruta de tu imagen de fondo */
+            background-size: 80% 80%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        .header img {
+            height: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+        }
+
+        .title {
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .content {
+            height: calc(100vh - 60px); /* Ajusta la altura según la altura del header */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content h1 {
+            color: white;
+            font-size: 48px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="URLBot"
+  agent-id="9b6e1b3c-c3c8-46bc-87c3-3a45ee7fb505"
+  language-code="en"
+></df-messenger>
+    </header>
+    <header class="header">
+        <img src="logo.png" alt="Logo"> <!-- Cambia 'logo.png' por la ruta de tu logo -->
+    </header>
+    <div class="content">
+        <h1>GBM</h1>
+    </div>
+</body>
+</html>
